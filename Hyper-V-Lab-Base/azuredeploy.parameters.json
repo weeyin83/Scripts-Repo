@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+    "parameters": {
+      "hypervHostDnsName": {
+        "type": "string",
+        "defaultValue": "hypervhostupdateme",
+        "minLength": 1
+      },
+      "adminUserName": {
+        "type": "string",
+        "defaultValue": "mcwadmin",
+        "minLength": 1
+      },
+      "adminPassword": {
+        "type": "string",
+        "defaultValue": "demo@pass123",
+        "minLength": 1
+      }
+}
