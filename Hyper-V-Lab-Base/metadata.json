@@ -1,10 +1,10 @@
 {
   "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
   "type": "QuickStart",
-  "itemDisplayName": "Deploy a Windows VM that starts off a Hyper-V Lab environment",
+  "itemDisplayName": "Deploy a Windows VM with Hyper-V installed to start a Hyper-V Lab",
   "icon": "windowsVM",
-  "description": "This labs helps to spin up a small Hyper-V host within Azure with a Active Directory server, a File Server, SQL 2016 server and a Ubuntu server. That can then be used to demo Azure Migrate (or alternatively to make use of Azure Backup or Azure Site Recovery).  The lab environment is automated as far as possible and reduces the amount of manual work that needs to be done. ",
-  "summary": "This labs helps to spin up a small Hyper-V host within Azure with a Active Directory server, a File Server, SQL 2016 server and a Ubuntu server. That can then be used to demo Azure Migrate (or alternatively to make use of Azure Backup or Azure Site Recovery).  The lab environment is automated as far as possible and reduces the amount of manual work that needs to be done. ",
+  "description": "This template allows you to deploy a simple Windows VM with Hyper-V installed so you can start to use it as a Lab environment. ",
+  "summary": "This template allows you to deploy a simple Windows VM with Hyper-V installed so you can start to use it as a Lab environment. ",
   "githubUsername": "weeyin83",
   "dateUpdated": "2019-07-24"
 }
